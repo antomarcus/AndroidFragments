@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment_Wrong" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/teal_200"
+        android:textAlignment="center"
+        android:layout_marginLeft="60dp"
+        android:text="Your answer is wrong" />
+
+    <Button
+        android:id="@+id/try_again"
+        android:layout_width="wrap_content"
+        android:textColor="@color/material_on_surface_emphasis_high_type"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Try Again" />
+</LinearLayout>
